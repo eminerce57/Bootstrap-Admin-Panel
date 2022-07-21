@@ -1,9 +1,4 @@
-/*!
- * Bootstrap v5.0.2 (https://getbootstrap.com/)
- * Copyright 2011-2021 The Bootstrap Authors
- * Copyright 2011-2021 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- */
+
  :root {
     --bs-blue: #63B3ED;
     --bs-indigo: #596CFF;
@@ -32,6 +27,38 @@
     --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
   }
   
+  [data-theme="dark"] {
+    --bs-blue: #63B3ED;
+    --bs-indigo: #596CFF;
+    --bs-purple: #6f42c1;
+    --bs-pink: #d63384;
+    --bs-red: #F56565;
+    --bs-orange: #fd7e14;
+    --bs-yellow: #FBD38D;
+    --bs-green: #81E6D9;
+    --bs-teal: #20c997;
+    --bs-cyan: #0dcaf0;
+    --bs-white: #fff;
+    --bs-gray: #6c757d;
+    --bs-gray-dark: #343a40;
+    --bs-primary: #cb0c9f;
+    --bs-secondary: #8392AB;
+    --bs-success: #82d616;
+    --bs-info: #17c1e8;
+    --bs-warning: #fbcf33;
+    --bs-danger: #ea0606;
+    --bs-light: #e9ecef;
+    --bs-dark: #344767;
+    --bs-white: #fff;
+    --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+
+
+}
+
+
+
+
+
   *,
   *::before,
   *::after {
