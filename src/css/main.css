@@ -27,7 +27,7 @@
     --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
   }
   
-  [data-theme="dark"] {
+  [data-theme="dark"] { /* tema dark olunca renkler  */
     --bs-blue: #63B3ED;
     --bs-indigo: #596CFF;
     --bs-purple: #6f42c1;
