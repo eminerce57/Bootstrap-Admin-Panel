@@ -1,3 +1,6 @@
+.test{
+  background-color: var(--bs-blue);
+}
 
  :root {
     --bs-blue: #63B3ED;
@@ -28,7 +31,7 @@
   }
   
   [data-theme="dark"] { /* tema dark olunca renkler  */
-    --bs-blue: #63B3ED;
+    --bs-blue: red;
     --bs-indigo: #596CFF;
     --bs-purple: #6f42c1;
     --bs-pink: #d63384;
@@ -48,8 +51,8 @@
     --bs-warning: #fbcf33;
     --bs-danger: #ea0606;
     --bs-light: #e9ecef;
-    --bs-dark: #344767;
-    --bs-white: #fff;
+    --bs-dark: #fff;
+    --bs-white: #344767;
     --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
 
 
@@ -9922,8 +9925,9 @@
   }
   
   .bg-white {
-    background-color: #fff !important;
+    background-color: var(--bs-white) !important;
   }
+
   
   .bg-body {
     background-color: #fff !important;
