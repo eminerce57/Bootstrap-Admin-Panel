@@ -28,6 +28,9 @@ function sidebar(){
 
 function checkActive(sidePath){
     let pathname = window.location.pathname
+
+    pathname = pathname.substring(1)
+    
 if(sidePath == pathname){
     return "active"
 }
