@@ -1,15 +1,8 @@
-
-
 sidebar()
-
 
 function sidebar(){
     request.get("js/json/sidebar.json").then((value)=>{
-        
         const sidebarSpace = document.getElementById("sidebar-content")
-
-   
-
         value.sidebar.forEach(sidebar => {
         sidebarSpace.innerHTML +=`
          <li class="nav-item">
@@ -32,7 +25,6 @@ function sidebar(){
     })
 
 }
-
 
 function checkActive(sidePath){
     let pathname = window.location.pathname
