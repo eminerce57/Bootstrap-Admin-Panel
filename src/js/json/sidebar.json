@@ -1,0 +1,28 @@
+{
+
+    "sidebar": [
+        {
+            "title": "Dasboard",
+            "icon": "", 
+            "href":"/dashboard.html" 
+        
+          },
+          {
+            "title": "Tables",
+            "icon": "",
+            "href":"/tables.html" 
+        
+          },
+          {
+            "title": "Buttons",
+            "icon": "", 
+            "href":"/buttons.html" 
+        
+          }
+
+
+
+    ]
+
+    
+}
