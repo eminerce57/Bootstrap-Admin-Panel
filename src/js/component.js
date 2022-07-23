@@ -56,14 +56,13 @@ else{
 }
 
 function platform(platform){
- 
-    macosPlatforms = ['Macintosh', 'MacIntel', 'MacPPC', 'Mac68K']
-    if (macosPlatforms.indexOf(platform) !== -1) {
-       
-        return "Emre ÇALIŞKAN"
-      }
-      else{
+
+    if (platform== "Win32") {
         return "Emin ERCE"
-      }
+       
+    }
+    else{
+        return "Emre ÇALIŞKAN"
+    }
 
 }
