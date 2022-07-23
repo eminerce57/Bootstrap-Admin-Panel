@@ -1,4 +1,20 @@
-sidebar()
+sidebar();
+navbar();
+
+function navbar(){
+let mainPath = document.getElementById("main-path")
+let mainPage = document.getElementById("page")
+let contentPage = document.getElementById("content-page")
+let userArea = document.getElementById("user")
+
+mainPath.innerText = location.hostname
+mainPage.innerText = location.pathname.substring(1).split(".")[0]
+contentPage.innerText = location.pathname.substring(1).split(".")[0]
+userArea.innerText = platform(window.navigator.platform)
+}
+
+
+
 
 function sidebar(){
     request.get("js/json/sidebar.json").then((value)=>{
@@ -37,4 +53,17 @@ if(sidePath == pathname){
 else{
     return " "
 }
+}
+
+function platform(platform){
+ 
+    macosPlatforms = ['Macintosh', 'MacIntel', 'MacPPC', 'Mac68K']
+    if (macosPlatforms.indexOf(platform) !== -1) {
+       
+        return "Emre ÇALIŞKAN"
+      }
+      else{
+        return "Emin ERCE"
+      }
+
 }
