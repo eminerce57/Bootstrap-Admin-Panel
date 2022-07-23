@@ -1,13 +1,16 @@
 .sidenav{
 
-  
+    background-color: var(--bs-newdark);
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px !important;
     margin: 0 !important;
 }
 
+/* Sidebar Icons */
+
 .icon-shape i {
   font-size: 14px;
   text-align: center;
+  color: var(--bs-dark);
 }
 
 nav .nav-item{
