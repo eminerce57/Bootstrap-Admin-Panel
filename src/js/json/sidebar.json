@@ -3,25 +3,25 @@
     "sidebar": [
         {
             "title": "Dasboard",
-            "icon": "", 
+            "icon": "fa-solid fa-gauge", 
             "href":"dashboard.html" 
         
           },
           {
             "title": "Tables",
-            "icon": "",
+            "icon": "fa-solid fa-border-all",
             "href":"tables.html" 
         
           },
           {
             "title": "Buttons",
-            "icon": "", 
+            "icon": "fa-solid fa-forward-fast", 
             "href":"buttons.html" 
         
           },
           {
             "title": "Input",
-            "icon": "",
+            "icon": "fa-solid fa-database",
             "href":"input.html" 
         
           }
