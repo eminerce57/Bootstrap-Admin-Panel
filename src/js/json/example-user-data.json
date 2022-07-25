@@ -1,0 +1,28 @@
+{
+
+    "user": [
+        {
+            "name": "Emin",
+            "surname": "ERCE", 
+            "status":"Fullstack Developer",
+            "salary":10000, 
+            "active":true
+          },
+          {
+            "name": "Emre",
+            "surname": "ÇALIŞKAN", 
+            "status":"Junior Software Developer",
+            "salary":3000, 
+            "active":true
+          },
+          {
+            "name": "example",
+            "surname": "example", 
+            "status":"Fullstack Developer",
+            "salary":102000, 
+            "active":true
+          }
+    ]
+
+    
+}

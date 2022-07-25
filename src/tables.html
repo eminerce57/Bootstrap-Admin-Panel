@@ -9,7 +9,7 @@
   <title>
 
   </title>
-
+  <script src="js/core/jquery-3.6.0.min.js"></script>
   <!--     Fonts and icons     -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
   <!-- Font Awesome Icons -->
@@ -17,6 +17,9 @@
   <!-- CSS Files -->
   <link  href="css/main.css" rel="stylesheet" />
   <link  href="css/style.css" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.css">
+  
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.js"></script>
 </head>
 
 <body class="g-sidenav-show  bg-gray-100">
@@ -95,10 +98,21 @@
     <div class="container-fluid py-4">
         <div class="container-fluid">
           <div class="row align-items-center justify-content-lg-between">
-        <div class="test" style="width: 100px; height: 100px;">
+            <table id="table_id" class="display">
+              <thead>
+                  <tr>
+                      <th>Name</th>
+                      <th>Surname</th>
+                      <th>Status</th>
+                      <th>salary</th>
+                      <th></th>
+                  </tr>
+              </thead>
+              <tbody id="table-body">
+                  
+              </tbody>
+          </table>
 
-        </div>
-             EXAMPLE content
           </div>
         </div>
     </div>
@@ -113,6 +127,7 @@
   <script src="js/index.js"></script>
   <script src="js/component.js"></script>
   <script src="js/sidebar.js"></script>
+  <script src="js/table.js"></script>
   <script src="js/dark.js"></script>
 </body>
 
