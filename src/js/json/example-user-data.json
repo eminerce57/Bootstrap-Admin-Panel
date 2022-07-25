@@ -16,8 +16,39 @@
             "active":true
           },
           {
-            "name": "example",
-            "surname": "example", 
+            "name": "Anıl",
+            "surname": "Sürmeli", 
+            "status":"Senior Back-end Developer",
+            "salary":102000, 
+            "active":true
+          },
+
+          {
+            "name": "Hüseyin",
+            "surname": "Korkmaz", 
+            "status":"Junior Front-end Developer",
+            "salary":102000, 
+            "active":true
+          },
+
+          {
+            "name": "Fatih",
+            "surname": "Durmaz", 
+            "status":"Fullstack Developer",
+            "salary":102000, 
+            "active":true
+          },
+
+          {
+            "name": "Ege",
+            "surname": "Durmuş", 
+            "status":"Senior Developer",
+            "salary":102000, 
+            "active":true
+          },
+          {
+            "name": "Melis",
+            "surname": "Yılmaz", 
             "status":"Fullstack Developer",
             "salary":102000, 
             "active":true
