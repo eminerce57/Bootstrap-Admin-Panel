@@ -218,6 +218,11 @@
   dt {
     font-weight: 600;
   }
+
+  .fa-solid fa-moon{
+    font-size: 25px;
+    text-align: center;
+  }
   
   dd {
     margin-bottom: .5rem;
