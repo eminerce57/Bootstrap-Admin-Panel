@@ -1,5 +1,5 @@
-getUserData()
 
+getUserData()
 function getUserData(){
 let table = document.getElementById("table-body")
 request.get("js/json/example-user-data.json").then((response)=>{
@@ -19,7 +19,7 @@ table.innerHTML +=`
 
 });
 
-
+return true
 }).catch((error)=>{
 
 console.log(error)
