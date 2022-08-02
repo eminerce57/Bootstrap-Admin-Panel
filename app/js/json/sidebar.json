@@ -24,6 +24,12 @@
             "icon": "fa-solid fa-database",
             "href":"input.html" 
         
+          },
+          {
+            "title": "Alerts",
+            "icon": "fa-solid fa-bell", 
+            "href":"alerts.html" 
+        
           }
     ]
 
