@@ -25,5 +25,8 @@ return true
 console.log(error)
 })
 
+setTimeout(function(){
 
+    $('#table_id').DataTable();
+},100)
 }
