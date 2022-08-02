@@ -79,7 +79,7 @@
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    color: #67748e;
+    color: var(--bs-dark);
     background-color: #fff;
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -113,7 +113,7 @@
     margin-bottom: 0.5rem;
     font-weight: 400;
     line-height: 1.2;
-    color: #344767;
+    color: var(--bs-dark);
   }
   
   h1,
@@ -9869,7 +9869,7 @@
   }
   
   .text-dark {
-    color: #344767 !important;
+    color: var(--bs-dark) !important;
   }
   
   .text-white {
@@ -9877,7 +9877,7 @@
   }
   
   .text-body {
-    color: #67748e !important;
+    color: var(--bs-dark) !important;
   }
   
   .text-muted {
@@ -9934,7 +9934,7 @@
 
   
   .bg-body {
-    background-color: #fff !important;
+    background-color: var(--bs-newdark) !important;
   }
   
   .bg-transparent {
