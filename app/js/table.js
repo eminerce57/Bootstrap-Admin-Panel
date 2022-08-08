@@ -40,6 +40,7 @@ function dangerAlert(name){
 
     Swal.fire({
         title: `Do you want to delete ${name}`,
+ 
         showDenyButton: true,
         confirmButtonText: 'Yes',
         denyButtonText: 'No',
