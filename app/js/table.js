@@ -12,7 +12,11 @@ table.innerHTML +=`
 <td>${user.surname}</td>
 <td>${user.status}</td>
 <td>${user.salary}</td>
-<td>${user.active}</td>
+<td>
+<button onclick="dangerAlert()" class="btn btn-danger t-button"><i class="fa-solid fa-trash-can"></i></button>
+<button onclick="updateModal()" class="btn btn-info t-button"><i class="fa-solid fa-pen"></i></button>
+</td>
+
 </tr>
 
 `
