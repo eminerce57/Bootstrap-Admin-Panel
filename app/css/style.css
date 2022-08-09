@@ -114,3 +114,8 @@ nav .nav-item{
   font-size: large;
   
   }
+
+  .modal-body label{
+
+    font-size: medium;
+  }
