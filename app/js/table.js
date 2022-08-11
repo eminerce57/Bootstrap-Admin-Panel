@@ -39,17 +39,18 @@ setTimeout(function(){
 }
 
 
+
+
 function dangerAlert(name){
   if(name == undefined){
     
     name="?"
 
   }
- 
 
   Swal.fire({
     title: `Do you want to delete ${name}`,
-
+    background: '#19191A',
     showDenyButton: true,
     confirmButtonText: 'Yes',
     denyButtonText: 'No',
