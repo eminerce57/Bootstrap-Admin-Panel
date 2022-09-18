@@ -119,3 +119,17 @@ nav .nav-item{
 
     font-size: medium;
   }
+
+  /* inputs */
+
+  .range{
+    padding:0 !important;
+  }
+  input[type=range]::-webkit-slider-thumb {
+
+    padding: 3px;
+    border-radius: 3px;
+    background: #000;
+    cursor: pointer;
+
+  }
