@@ -30,6 +30,12 @@
             "icon": "fa-solid fa-bell", 
             "href":"alerts.html" 
         
+          },
+          {
+            "title": "Chart",
+            "icon": "fa-solid fa-chart-pie", 
+            "href":"chart.html" 
+        
           }
     ]
 
