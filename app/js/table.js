@@ -5,12 +5,12 @@ getUserData()
 function getUserData(){
 
 
-let table = document.getElementById("table-body")
+let rows;
 request.get("js/json/example-user-data.json").then((response)=>{
 
 response.user.forEach(user => {
 
-table.innerHTML +=`
+rows +=`
 <tr>
 <td>${user.name}</td>
 <td>${user.surname}</td>
@@ -27,15 +27,14 @@ table.innerHTML +=`
 
 });
 
-return true
+setTableSearch("table_id", rows)
 }).catch((error)=>{
 
 console.log(error)
 })
 
-setTimeout(function(){
-    $('#table_id').DataTable();
-},100)
+
+
 }
 
 
@@ -77,4 +76,42 @@ function updateModal(name,surname,salary){
   document.getElementById("name").value =name
   document.getElementById("surname").value =surname
   document.getElementById("salary").value =salary
+}
+
+
+
+function setTableSearch(tblName, rows = null, callback = null, options = null) {
+
+  let tableId = `#${tblName}`;
+  $(`${tableId} tbody`).empty();
+
+  // Daha once tablo olusturulmus ise yok edilir
+  if ($.fn.dataTable.isDataTable(tableId)) {
+      $(tableId).DataTable().destroy();
+  }
+  $(`${tableId} tbody`).html(rows);
+
+
+
+  // Varsayilan secenekler
+  let defaultOptions = {
+      "pageLength": 25,
+      "retrieve": true,
+      "deferRender": false,
+      "destroy": true,
+      "dom": 'Bfrtip',
+      "language": {
+          "emptyTable": "Herhangi veri bulunmamaktadır."
+      },
+ 
+   
+  }
+
+  // Extra secenekler bulundugu halde
+
+  var table = $(tableId).DataTable(defaultOptions);
+
+  if (callback) {
+      callback();
+  }
 }
