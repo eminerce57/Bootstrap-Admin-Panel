@@ -135,3 +135,24 @@ nav .nav-item{
   }
 
   /* inputs end*/
+
+  /* sidebar collapsed */
+.collapsed aside{
+
+width: 0 !important;
+}
+
+.collapsed main{
+  margin-left: 0 !important;
+}
+
+.btn-collapsed{
+  cursor: pointer;
+  background-color: #000;
+  border-radius: 10px;
+  padding:3px 7px 3px 7px ;
+}
+
+.g-sidenav-show .sidenav.fixed-start + .main-content{
+ 
+}
