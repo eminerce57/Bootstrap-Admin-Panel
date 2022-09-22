@@ -21620,9 +21620,7 @@
   @media (max-width: 1199.98px) {
  
   
-    .g-sidenav-show .sidenav.fixed-start+.main-content {
-      margin-left: 0 !important;
-    }
+    
   
     .g-sidenav-show.g-sidenav-pinned .sidenav {
       transform: translateX(0);

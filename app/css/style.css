@@ -154,5 +154,7 @@ width: 0 !important;
 }
 
 .g-sidenav-show .sidenav.fixed-start + .main-content{
- 
+
+    margin-left: 17.125rem;
+
 }
