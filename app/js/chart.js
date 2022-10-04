@@ -11,14 +11,15 @@ const labels = [
     labels: labels,
     datasets: [{
       label: 'My First dataset',
-      backgroundColor: 'rgb(255, 99, 132)',
-      borderColor: 'rgb(255, 99, 132)',
+      backgroundColor: ['#CB4335', '#1F618D', '#F1C40F', '#27AE60', '#884EA0', '#D35400'],
+      borderColor: 'rgb(213, 139, 221)',
+
       data: [0, 10, 5, 2, 20, 30, 45],
     }]
   };
 
   const config = {
-    type: 'line',
+    type: 'pie',
     data: data,
     options: {}
   };
