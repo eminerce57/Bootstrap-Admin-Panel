@@ -14,4 +14,3 @@ function darkmode(theme) {  // fonksiyon
     }
     Switch.checked = theme; // butonu resetliyoruz 
 }
-// not  komutlar asekron şekilde çalışıyor

@@ -158,3 +158,8 @@ width: 0 !important;
     margin-left: 17.125rem;
 
 }
+
+.settings-area .col-4 span{
+  display: block !important;
+  font-weight: bold;
+}
